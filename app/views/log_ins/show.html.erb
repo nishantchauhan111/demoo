@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @log_in %>
+
+<div>
+  <%= link_to "Edit this log in", edit_log_in_path(@log_in) %> |
+  <%= link_to "Back to log ins", log_ins_path %>
+
+  <%= button_to "Destroy this log in", @log_in, method: :delete %>
+</div>

@@ -1,0 +1,2 @@
+class LogIn < ApplicationRecord
+end

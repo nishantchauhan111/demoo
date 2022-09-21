@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Log ins</h1>
+
+<div id="log_ins">
+  <% @log_ins.each do |log_in| %>
+    <%= render log_in %>
+    <p>
+      <%= link_to "Show this log in", log_in %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New log in", new_log_in_path %>
